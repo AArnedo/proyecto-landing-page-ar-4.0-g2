@@ -1,0 +1,90 @@
+/*font-family: 'Playfair Display', serif;*/
+
+*{
+    font-family: 'Playfair Display', serif;
+
+}
+.header{
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)),
+    url(/images/carro2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar-collapse{
+    color: #ffffff;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    padding: 0 50px;
+}
+
+.navbar-collapse .navbar-brand{
+   font-size: 30px;
+   color: #ffffff;
+}
+
+.navbar-collapse .navbar-brand:hover{
+    color: chocolate;
+}
+
+.navbar-brand{
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.nav-item{
+    position: relative;
+    float: left;
+}
+
+.navbar .nav-link:hover{
+    color: #ffffff
+}
+
+.header-content{
+    display: flex;
+    align-items: center;
+    padding-top:5%;
+}
+
+.header-txt{
+    width: 80%;
+}
+
+.header-txt h1{
+    font-size: 70px;
+    line-height: 80px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 150px;
+}
+
+.header-txt p{
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 35px;
+    border-left: 5px solid #ffffff;
+    padding-left: 15px;
+}
+
+.btn-1{
+    display: inline-block;
+    padding: 12px 35px; 
+    background-color: rgba(0, 0, 0, 0.678);
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 25px;
+    margin-left: 50%;
+    text-decoration: none;
+}
+
+.btn-1:hover{
+    background-color:rgba(210, 105, 30, 0.582);
+}
+   
