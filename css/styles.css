@@ -1,0 +1,22 @@
+
+
+
+.header{
+    background: url(/images/fondo-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar-brand{
+    font-size: 24px;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.nav-item{
+    position: relative;
+    float: left;
+}
+   
