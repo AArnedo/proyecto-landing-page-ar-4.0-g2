@@ -1,24 +1,24 @@
 /*font-family: 'Playfair Display', serif;*/
 
-*{
+* {
     font-family: 'Playfair Display', serif;
 
 }
-.header{
-    background: linear-gradient(
-        rgba(0, 0, 0, 0.2),
-        rgba(0, 0, 0, 0.2)),
-    url(/images/carro2.jpeg);
+
+.header {
+    background: linear-gradient(rgba(0, 0, 0, 0.2),
+            rgba(0, 0, 0, 0.2)),
+        url(/images/carro2.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
 }
 
-.navbar{
+.navbar {
     background-color: #7e7a7071;
 }
 
-.navbar-collapse{
+.navbar-collapse {
     color: #ffffff;
     align-items: center;
     justify-content: space-between;
@@ -26,57 +26,57 @@
     padding: 0 50px;
 }
 
-.navbar-collapse ul li a{
+.navbar-collapse ul li a {
     color: #EEE9DA;
 }
 
-.collapse .navbar-brand{
+.collapse .navbar-brand {
     color: #EEE9DA;
     font-size: 30px;
 }
 
 
-.navbar-collapse .navbar-brand:hover{
+.navbar-collapse .navbar-brand:hover {
     color: #333333;
 }
 
-.navbar-brand{
+.navbar-brand {
     font-size: 30px;
     font-weight: bold;
     text-transform: uppercase;
 }
 
-.nav-item{
+.nav-item {
     position: relative;
     float: left;
 }
 
-.navbar .nav-link:hover{
+.navbar .nav-link:hover {
     color: #333333;
 }
 
-.navbar .nav-link{
+.navbar .nav-link {
     margin-left: 20px;
 }
 
-.header-content{
+.header-content {
     display: flex;
     align-items: center;
-    padding-top:5%;
+    padding-top: 5%;
 }
 
-.header-txt{
+.header-txt {
     width: 80%;
 }
 
-.header-txt h1{
+.header-txt h1 {
     font-size: 70px;
     line-height: 80px;
     color: #EEE9DA;
     margin-bottom: 60px;
 }
 
-.header-txt p{
+.header-txt p {
     font-size: 18px;
     color: #ffffff;
     margin-bottom: 35px;
@@ -85,9 +85,9 @@
     padding-left: 15px;
 }
 
-.btn-1{
+.btn-1 {
     display: inline-block;
-    padding: 12px 35px; 
+    padding: 12px 35px;
     background-color: #333333b6;
     border-radius: 10px;
     color: #ffffff;
@@ -99,47 +99,47 @@
     text-decoration: none;
 }
 
-.btn-1:hover{
+.btn-1:hover {
     background-color: #7e7a70;
 }
 
 /*Destinos*/
 
-.carousel-container{
+.carousel-container {
     width: 100vw;
-    background-color: #EEE9DA ;
+    background-color: #EEE9DA;
 }
 
-.destinos-txt{
+.destinos-txt {
     font-style: italic;
     color: #333333;
     font-size: 60px;
 }
 
-.card-text{
+.card-text {
     color: #ffffff;
 }
 
-.card-body{
-    background-color:#7e7a70;
+.card-body {
+    background-color: #7e7a70;
 }
 
-.card-body h5{
+.card-body h5 {
     text-decoration: dotted;
     color: #EEE9DA;
     font-weight: 20px;
 }
 
-.card-body:hover{
+.card-body:hover {
     background-color: #333333;
 }
 
-.list-group li{
+.list-group li {
     background-color: #333333;
     color: #EEE9DA;
 }
 
-.card-img-top{
+.card-img-top {
     width: 50px;
     height: 200px;
 }
@@ -148,6 +148,23 @@
 
 
 
+.form__reclamo {
+    text-align: center;
+    margin: 100px;
+}
+
+.form__link {
+    text-decoration: none;
+    border: 2px solid #252525;
+    border-radius: 10px;
+    padding: 10px;
+    color: #252525;
+}
+
+.form__link:hover {
+
+    background-color: #EEE9DA;
+}
 
 
 
