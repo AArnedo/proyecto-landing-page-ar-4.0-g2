@@ -145,7 +145,88 @@
 }
 
 
+/*sección porque elegirnos*/
+.seccionelegirnos {
+    display: flex;
+    flex-direction: column;
 
+    margin: 60px;
+
+}
+
+
+.seccionelegirnos__textos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.seccionelegirnos__titulo {
+    text-align: center;
+}
+
+.seccionelegirnos__parrafo {
+    text-align: center;
+    margin-bottom: 36px;
+
+}
+
+.seccionelegirnos__detalles {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.seccionelegirnos__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.seccionelegirnos__parrafo-box {
+    text-align: center;
+}
+
+
+.seccionelegirnos__iconos {
+    width: 100px;
+    height: 100px;
+
+    background-color: #93BFCF;
+    border-radius: 50%;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.seccionelegirnos__titulo-box {
+    text-align: center;
+}
+
+
+@media screen and (min-width: 768px) {
+
+
+    .seccionelegirnos__textos {
+        gap: 25px;
+    }
+
+    .seccionelegirnos__parrafo {
+        padding: 0px 180px;
+    }
+
+    .seccionelegirnos__detalles {
+        flex-direction: row;
+    }
+
+    .seccionelegirnos__parrafo-box {
+        padding: 10px;
+    }
+}
 
 
 .form__reclamo {
