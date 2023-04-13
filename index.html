@@ -234,66 +234,63 @@
 
     </section>
     <!-- Formulario -->
-    <div class="txt-form">
-        <h1>Contactanos:</h1>
-    </div>
+
     <section class="form__contacto">
-        <div class="container col-md-6 col-sm-12">
-            <form action="" class="row g-2 p-5 needs-validation" novalidate>
-                <div class="col-md-12">
+        <form action="" class="row p-3 needs-validation" novalidate>
+            <h2>
+                Contacto
+            </h2>
+            <div class="col-md-12 col-sm-12 g-3">
+                <div class="form-floating">
+                    <input type="text" class="form-control" placeholder="Nombre" id="nameId" required>
+                    <label for="nameId">Nombre</label>
+                    <div class="valid-feedback">
+                    </div>
+                    <div class="invalid-feedback">
+                        Campo obligatorio
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 col-sm-12 g-3">
+                <div class="form-floating">
+                    <input type="text" class="form-control" placeholder="Apellido" id="snameId" required>
+                    <label for="snameId">Apellido</label>
+                    <div class="valid-feedback">
+                    </div>
+                    <div class="invalid-feedback">
+                        Campo obligatorio
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 col-sm-12 g-3">
+                <div class="form-floating">
+                    <input type="email" class="form-control" id="emailId" placeholder="ejemplo@ejemplo.com" required>
+                    <label for="emailId">Email</label>
+                    <div class="valid-feedback">
 
-                    <div class="form-floating">
-                        <input type="text" class="form-control" placeholder="Nombre" id="nameId" required>
-                        <label for="nameId">Nombre</label>
-                        <div class="valid-feedback">
-                        </div>
-                        <div class="invalid-feedback">
-                            Campo obligatorio
-                        </div>
+                    </div>
+                    <div class="invalid-feedback">
+                        Campo obligatorio
                     </div>
                 </div>
-                <div class="col-md-12">
-                    <div class="form-floating">
-                        <input type="text" class="form-control" placeholder="Apellido" id="snameId" required>
-                        <label for="snameId">Apellido</label>
-                        <div class="valid-feedback">
-                        </div>
-                        <div class="invalid-feedback">
-                            Campo obligatorio
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-12">
-                    <div class="form-floating">
-                        <input type="email" class="form-control" id="emailId" placeholder="ejemplo@ejemplo.com"
-                            required>
-                        <label for="emailId">Email</label>
-                        <div class="valid-feedback">
+            </div>
+            <div class="col-md-12 col-sm-12 g-3">
+                <div class="form-floating">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea" required
+                        style="height: 90px"></textarea>
+                    <label for="floatingTextarea">Mensaje</label>
+                    <div class="valid-feedback">
 
-                        </div>
-                        <div class="invalid-feedback">
-                            Campo obligatorio
-                        </div>
+                    </div>
+                    <div class="invalid-feedback">
+                        Campo obligatorio
                     </div>
                 </div>
-                <div class="col-md-12">
-                    <div class="form-floating">
-                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea" required
-                            style="height: 90px"></textarea>
-                        <label for="floatingTextarea">Mensaje</label>
-                        <div class="valid-feedback">
-
-                        </div>
-                        <div class="invalid-feedback">
-                            Campo obligatorio
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-12">
-                    <button type="submit" class="btn btn-primary">Enviar</button>
-                </div>
-            </form>
-        </div>
+            </div>
+            <div class="col-md-12 col-sm-12 g-3">
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+        </form>
     </section>
     <!-- form reclamo-->
     <section class="form__reclamo">
