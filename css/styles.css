@@ -2,8 +2,9 @@
 
 * {
     font-family: 'Playfair Display', serif;
-
 }
+
+
 
 /*Header*/
 
@@ -30,14 +31,12 @@
 
 .navbar-collapse ul li a {
     color: #EEE9DA;
-
 }
 
 .collapse .navbar-brand {
     color: #EEE9DA;
     font-size: 1.5rem;
 }
-
 
 .navbar-collapse .navbar-brand:hover {
     color: #333333;
@@ -90,7 +89,7 @@
     padding-left: .5rem;
 }
 
-.header-txt p {
+.header-txt p{
     font-size: 1.6rem;
     font-style: italic;
     color: #ffffff;
@@ -114,6 +113,354 @@
     background-color: #7e7a70;
 }
 
+
+
+
+/*sección porque elegirnos*/
+
+.seccionelegirnos {
+    background-color: #EEE9DA;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.seccionelegirnos__textos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.seccionelegirnos__titulo {
+    font-family:'Playfair Display', serif;
+    font-style: italic;
+    font-size: 60px;
+    color: #333333;
+    text-decoration:underline .2rem;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.seccionelegirnos__parrafo {
+    text-align: center;
+    margin-top: 4rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.seccionelegirnos__detalles {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+}
+
+.seccionelegirnos__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.seccionelegirnos__parrafo-box {
+    text-align: center;
+    font-size: 1rem;
+    width: 80%;
+}
+
+.seccionelegirnos__iconos {
+    width: 10rem;
+    height: 10rem;
+    background-color: #93BFCF;
+    border-radius: 50%;
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.seccionelegirnos__titulo-box {
+    text-align: center;
+    font-size: 2rem;
+}
+
+
+
+/*Destinos*/
+
+.carousel-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #9c8a7c;
+}
+
+.destinos-txt {
+    font-style: italic;
+    text-decoration: underline .2rem;
+    color: #EEE9DA;
+    font-size: 60px;
+    margin-bottom: 2rem;
+}
+
+.destinos-parrafo {
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+    font-size: 1.4rem;
+    color: #EEE9DA;
+}
+
+.card-text {
+    color: #ffffff;
+}
+
+.card-body {
+    background-color: #7e7a70;
+}
+
+.card-body h5 {
+    text-decoration: dotted;
+    color: #EEE9DA;
+    font-weight: 20px;
+}
+
+.card-body:hover {
+    background-color: #333333;
+}
+
+.list-group li {
+    font-family: sans-serif;
+    background-color: #333333;
+    color: #EEE9DA;
+}
+
+.card-img-top {
+    width: 50px;
+    height: 200px;
+}
+
+/* ¿Quienes Somos? */
+
+
+
+
+/* formulario de contacto */
+
+.form__contacto .btn-primary {
+
+    background-color: #6096B4 !important;
+    border: none;
+}
+
+.form__contacto .btn-primary:hover {
+
+    background-color: #4982a0 !important;
+}
+
+.form__contacto .form-control:focus {
+    border-color: #93BFCF !important;
+    border: 3px solid;
+    box-shadow: none !important;
+}
+
+
+
+/* formulario de reclamo */
+
+.form__reclamo {
+    text-align: center;
+    margin: 100px;
+}
+
+.form__link {
+    text-decoration: none;
+    border: 2px solid #252525;
+    border-radius: 10px;
+    padding: 10px;
+    color: #252525;
+}
+
+.form__link:hover {
+    background-color: #EEE9DA;
+}
+
+
+
+/*footer*/
+
+.footer__content {
+    background-color: #EEE9DA;
+    width: auto;
+    height: 281px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer__link {
+    display: flex;
+    justify-content: center;
+}
+
+.footer__logo {
+    width: 75%;
+    height: auto;
+}
+
+.footer__text {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #252525;
+    font-style: italic;
+}
+
+.footer__socials {
+    display: flex;
+    gap: 4rem;
+}
+
+.footer__icons {
+    color: #252525;
+    text-decoration: none;
+}
+
+.footer__icons:hover {
+    color: #93BFCF;
+}
+
+
+
+/*footer credits*/
+
+.footer__credits {
+    background-color: #252525;
+    width: auto;
+    height: 124px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__text-credits {
+    color: white;
+    font-family: serif;
+    text-align: center;
+}
+
+.footer__link-credits {
+    color: #93BFCF;
+}
+
+.footer__link-credits:hover {
+    color: #EEE9DA;
+}
+
+
+
+/*Medias Querry*/
+
+@media(max-width:991px){
+
+    .header{
+        height: 100%;
+    }
+   
+    .header-txt h1{
+        width: 80%;
+        line-height: 6rem;
+        font-size: 5rem;
+        padding-bottom: 0;
+    }
+
+    .header-txt .parrafo{
+        width: 80%;
+        padding-top: 0;
+    }
+
+    .btn-1{
+        margin: 30% 40%;
+    }
+
+    .header-txt p{
+        margin-top: 10rem;
+        margin-left: 10%;
+        width: 80%;
+    }
+    
+}
+
+@media screen and (min-width: 768px) {
+
+    .seccionelegirnos__textos {
+        gap: 25px;
+    }
+
+    .seccionelegirnos__parrafo {
+        padding: 0px 180px;
+    }
+
+    .seccionelegirnos__detalles {
+        flex-direction: row;
+    }
+
+    .seccionelegirnos__parrafo-box {
+        padding: 10px;
+    }
+    .form__contacto {
+        margin: 100px;
+        padding: 50px;
+        border-radius: 10px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    }
+}
+
+@media (max-width:768px){
+    
+    .header-txt h1{
+        width: 80%;
+        line-height: 5rem;
+        font-size: 3.5rem;
+    }
+    .header-txt p{
+        margin-top: 3rem;
+        margin-left: 10%;
+        width: 80%;
+    }
+    .header-txt .parrafo{
+        display: none;
+    }
+
+    .btn-1{
+        margin: 20px 25%;
+    }
+
+    .seccionelegirnos{
+        height: 100%;
+    }
+
+    .seccionelegirnos__parrafo{
+        font-size: 1.2rem;
+        width: 80%;
+    }
+
+    .seccionelegirnos__iconos{
+        width: 8rem;
+        height: 8rem;
+        padding-top: 1px;
+    }
+
+    .carousel-container{
+        height: 100%;
+    }
+
+    .cartas{
+        display: flex;
+        flex-direction: column;
+    } 
+}
+
+
+
 /*Go Top*/
 
 .go-top-container {
@@ -128,7 +475,7 @@
 .go-top-button {
     width: 0rem;
     height: 0rem;
-    background: #43aee7;
+    background: #93BFCF;
     border-radius: 50%;
     cursor: pointer;
     transition: .2s;
@@ -144,7 +491,7 @@
     top: 48%;
     left: 50%;
     transform: translate(-50%, -50%) escale(0);
-    color: #000000;
+    color: #EEE9DA;
     transition: .2s;
 }
 
@@ -180,262 +527,4 @@
     }
 }
 
-/*Destinos*/
 
-.carousel-container {
-    width: 100vw;
-    height: 100vh;
-    background-color: #9c8a7c;
-}
-
-.destinos-txt {
-    font-style: italic;
-    text-decoration: underline .2rem;
-    color: #EEE9DA;
-    font-size: 60px;
-    margin-bottom: 2rem;
-}
-
-.destinos-parrafo {
-    width: 80%;
-    margin-left: 10%;
-    text-align: center;
-    font-size: 1.4rem;
-    color: #EEE9DA;
-
-}
-
-.card-text {
-    color: #ffffff;
-}
-
-.card-body {
-    background-color: #7e7a70;
-}
-
-.card-body h5 {
-    text-decoration: dotted;
-    color: #EEE9DA;
-    font-weight: 20px;
-}
-
-.card-body:hover {
-    background-color: #333333;
-}
-
-.list-group li {
-    font-family: sans-serif;
-    background-color: #333333;
-    color: #EEE9DA;
-}
-
-.card-img-top {
-    width: 50px;
-    height: 200px;
-}
-
-/* ¿Quienes Somos? */
-
-
-/* Formulario de Contacto */
-
-
-.seccionelegirnos__titulo {
-    text-align: center;
-}
-
-.seccionelegirnos__parrafo {
-    text-align: center;
-    margin-bottom: 36px;
-
-}
-
-.seccionelegirnos__detalles {
-    display: flex;
-    flex-direction: column;
-
-}
-
-.seccionelegirnos__box {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.seccionelegirnos__parrafo-box {
-    text-align: center;
-}
-
-
-.seccionelegirnos__iconos {
-    width: 100px;
-    height: 100px;
-
-    background-color: #93BFCF;
-    border-radius: 50%;
-
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.seccionelegirnos__titulo-box {
-    text-align: center;
-}
-
-
-@media screen and (min-width: 768px) {
-
-
-    .seccionelegirnos__textos {
-        gap: 25px;
-    }
-
-    .seccionelegirnos__parrafo {
-        padding: 0px 180px;
-    }
-
-    .seccionelegirnos__detalles {
-        flex-direction: row;
-    }
-
-    .seccionelegirnos__parrafo-box {
-        padding: 10px;
-    }
-}
-
-/* formulario de reclamo */
-.form__reclamo {
-    text-align: center;
-    margin: 100px;
-}
-
-.form__link {
-    text-decoration: none;
-    border: 2px solid #252525;
-    border-radius: 10px;
-    padding: 10px;
-    color: #252525;
-}
-
-.form__link:hover {
-
-    background-color: #EEE9DA;
-}
-
-/* formulario de contacto */
-.form__contacto .btn-primary {
-
-    background-color: #6096B4 !important;
-    border: none;
-
-}
-
-.form__contacto .btn-primary:hover {
-
-    background-color: #4982a0 !important;
-
-
-}
-
-.form__contacto .form-control:focus {
-    border-color: #93BFCF !important;
-    border: 3px solid;
-    box-shadow: none !important;
-}
-
-@media (min-width: 768px) {
-    .form__contacto {
-
-        margin: 100px;
-        padding: 50px;
-        border-radius: 10px;
-        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
-    }
-}
-
-
-
-
-/*footer*/
-
-.footer__content {
-
-    background-color: #EEE9DA;
-    width: auto;
-    height: 281px;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-
-}
-
-.footer__link {
-    display: flex;
-    justify-content: center;
-}
-
-.footer__logo {
-    width: 75%;
-    height: auto;
-}
-
-
-
-.footer__text {
-    text-align: center;
-    font-size: 18px;
-    color: #252525;
-
-}
-
-.footer__socials {
-    display: flex;
-    gap: 30px;
-}
-
-
-.footer__icons {
-    color: #252525;
-    text-decoration: none;
-
-}
-
-.footer__icons:hover {
-    color: #93BFCF;
-}
-
-/*footer credits*/
-
-.footer__credits {
-    background-color: #252525;
-
-    width: auto;
-    height: 124px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-
-}
-
-.footer__text-credits {
-
-    color: white;
-    font-family: serif;
-    text-align: center;
-
-}
-
-.footer__link-credits {
-    color: #93BFCF;
-}
-
-.footer__link-credits:hover {
-    color: #EEE9DA;
-}
