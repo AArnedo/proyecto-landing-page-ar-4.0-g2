@@ -296,7 +296,7 @@
     }
 }
 
-
+/* formulario de reclamo */
 .form__reclamo {
     text-align: center;
     margin: 100px;
@@ -315,7 +315,36 @@
     background-color: #EEE9DA;
 }
 
+/* formulario de contacto */
+.form__contacto .btn-primary {
 
+    background-color: #6096B4 !important;
+    border: none;
+
+}
+
+.form__contacto .btn-primary:hover {
+
+    background-color: #4982a0 !important;
+
+
+}
+
+.form__contacto .form-control:focus {
+    border-color: #93BFCF !important;
+    border: 3px solid;
+    box-shadow: none !important;
+}
+
+@media (min-width: 768px) {
+    .form__contacto {
+
+        margin: 100px;
+        padding: 50px;
+        border-radius: 10px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    }
+}
 
 
 
