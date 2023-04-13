@@ -8,8 +8,8 @@
 /*Header*/
 
 .header {
-    background: linear-gradient(rgba(0, 0, 0, 0.2),
-            rgba(0, 0, 0, 0.2)),
+    background: linear-gradient(rgba(0, 0, 0, 0.1),
+            rgba(0, 0, 0, 0.3)),
         url(../images/carro2.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -24,28 +24,23 @@
     color: #ffffff;
     align-items: center;
     justify-content: space-between;
-    font-size: 18px;
-    padding: 0 50px;
+    font-size: 1.2rem;
+    padding: 0 .2rem;
 }
 
 .navbar-collapse ul li a {
     color: #EEE9DA;
+    
 }
 
 .collapse .navbar-brand {
     color: #EEE9DA;
-    font-size: 30px;
+    font-size: 1.5rem;
 }
 
 
 .navbar-collapse .navbar-brand:hover {
     color: #333333;
-}
-
-.navbar-brand {
-    font-size: 30px;
-    font-weight: bold;
-    text-transform: uppercase;
 }
 
 .nav-item {
@@ -58,46 +53,60 @@
 }
 
 .navbar .nav-link {
-    margin-left: 20px;
+    margin-left: 1.5rem;
 }
 
 .header-content {
     display: flex;
     align-items: center;
     padding-top: 5%;
+    background: linear-gradient(to top, #3d44442f, rgba(11, 48, 65, 0));
+    padding-top: 1rem;
+    margin-top: 3.5rem;
+    padding-bottom: 1rem;
+    width: 100%;
 }
 
 .header-txt {
-    width: 80%;
+    width: 100%;
 }
 
 .header-txt h1 {
-    font-size: 70px;
-    line-height: 80px;
+    width: 80%;
+    font-size: 4.5rem;
+    font-weight: 5rem;
+    line-height: 6rem;
     color: #EEE9DA;
-    margin-bottom: 60px;
+    margin-bottom: 2.5rem;
+    margin-left: 5rem;
 }
 
-.header-txt p {
-    font-size: 18px;
+.header-txt .parrafo {
+    font-size: 1.2rem;
+    color: #fff;
+    width: 95%;
+    margin-left: 4rem;
+    border-left: .35rem solid #EEE9DA;
+    padding-left: .5rem;
+}
+
+.header-txt p{
+    font-size: 1.6rem;
+    font-style: italic;
     color: #ffffff;
-    margin-bottom: 35px;
-    margin-left: 50px;
-    border-left: 10px solid #EEE9DA;
-    padding-left: 15px;
+    text-align: center;
 }
 
 .btn-1 {
     display: inline-block;
     padding: 12px 35px;
-    background-color: #333333b6;
-    border-radius: 10px;
-    color: #ffffff;
-    font-size: 15px;
+    background-color: #333333e1;
+    border-radius: 1.5rem;
+    color: #ffffffb2;
+    font-size: 1.5rem;
     font-family: 'Playfair Display', serif;
-    text-transform: uppercase;
-    margin-top: 30px;
-    margin-left: 50%;
+    margin-top: 2rem;
+    margin-left: 45%;
     text-decoration: none;
 }
 
@@ -105,6 +114,7 @@
     background-color: #7e7a70;
 }
 
+<<<<<<< HEAD
 /*Go Top*/
 
 .go-top-container {
@@ -172,16 +182,109 @@
 }
 
 /*Destinos*/
+=======
+
+
+ 
+/*sección porque elegirnos*/
+.seccionelegirnos {
+    background-color: #EEE9DA;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+
+}
+
+
+.seccionelegirnos__textos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.seccionelegirnos__titulo {
+    font-family:'Playfair Display', serif;
+    font-style: italic;
+    font-size: 60px;
+    color: #333333;
+    text-decoration:underline .2rem;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.seccionelegirnos__parrafo {
+    text-align: center;
+    margin-top: 4rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+
+}
+
+.seccionelegirnos__detalles {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+
+}
+
+.seccionelegirnos__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.seccionelegirnos__parrafo-box {
+    text-align: center;
+    font-size: 1rem;
+    width: 80%;
+}
+
+
+.seccionelegirnos__iconos {
+    width: 10rem;
+    height: 10rem;
+
+    background-color: #93BFCF;
+    border-radius: 50%;
+    margin-bottom: 1.5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.seccionelegirnos__titulo-box {
+    text-align: center;
+    font-size: 2rem;
+}
+
+
+/*Nuestros Destinos*/
+>>>>>>> ModifGral
 
 .carousel-container {
     width: 100vw;
-    background-color: #EEE9DA;
+    height: 100vh;
+    background-color: #9c8a7c;
 }
 
 .destinos-txt {
     font-style: italic;
-    color: #333333;
+    text-decoration:underline .2rem;
+    color: #EEE9DA;
     font-size: 60px;
+    margin-bottom: 2rem;
+}
+
+.destinos-parrafo{
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+    font-size: 1.4rem;
+    color: #EEE9DA;
+    
 }
 
 .card-text {
@@ -203,6 +306,7 @@
 }
 
 .list-group li {
+    font-family: sans-serif;
     background-color: #333333;
     color: #EEE9DA;
 }
@@ -212,25 +316,13 @@
     height: 200px;
 }
 
-
-/*sección porque elegirnos*/
-.seccionelegirnos {
-    display: flex;
-    flex-direction: column;
-
-    margin: 60px;
-
-}
+/* ¿Quienes Somos? */
 
 
-.seccionelegirnos__textos {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-}
+/* Formulario de Contacto */
 
 
+<<<<<<< HEAD
 .seccionelegirnos__titulo {
     text-align: center;
 }
@@ -297,6 +389,10 @@
 }
 
 /* formulario de reclamo */
+=======
+/* Formulario Reclamo */
+
+>>>>>>> ModifGral
 .form__reclamo {
     text-align: center;
     margin: 100px;
@@ -318,6 +414,7 @@
 /* formulario de contacto */
 .form__contacto .btn-primary {
 
+<<<<<<< HEAD
     background-color: #6096B4 !important;
     border: none;
 
@@ -349,6 +446,8 @@
 
 
 
+=======
+>>>>>>> ModifGral
 /*footer*/
 
 .footer__content {
@@ -427,6 +526,173 @@
     color: #93BFCF;
 }
 
+<<<<<<< HEAD
 .footer__link-credits:hover {
     color: #EEE9DA;
 }
+=======
+    font-weight: 700;
+    color: rgb(148, 148, 231);
+}
+
+/*Boton Go Top*/
+
+.go-top-container{
+    position: fixed;
+    bottom: 4rem;
+    right: 2rem;
+    width: 4rem;
+    height: 4rem;
+    z-index: -1;
+}
+
+.go-top-button{
+    width: 0rem;
+    height: 0rem;
+    background: #93BFCF;
+    opacity: 90%;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: .2s;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+}
+
+.go-top-button i{
+    position: absolute;
+    font-size: 2rem;
+    top:48%;
+    left: 50%;
+    transform: translate(-50%,-50%) escale(0);
+    color: #ffffff;
+    transition: .2s;
+}
+
+.show{
+    z-index: 10;
+}
+
+.show .go-top-button{
+    animation: popup .3s ease-in-out;
+    width: 6.6rem;
+    height: 6.6rem;
+    z-index: 11;
+}
+
+.show i{
+    transform: translate(-50%,-50%) scale(1);
+}
+
+@keyframes popup{
+    0%{
+        width: 0rem;
+        height: 0rem;
+    }
+    50%{
+        width: 2rem;
+        height: 2rem;
+    }
+    100%{
+        width: 4rem;
+        height: 4rem;
+    }
+}
+
+/*Medias Querry*/
+
+@media(max-width:991px){
+
+    .header{
+        height: 100%;
+    }
+   
+    .header-txt h1{
+        width: 80%;
+        line-height: 6rem;
+        font-size: 5rem;
+        padding-bottom: 0;
+    }
+    .header-txt .parrafo{
+        width: 80%;
+        padding-top: 0;
+
+    }
+    .btn-1{
+        margin: 30% 40%;
+    }
+    .header-txt p{
+        margin-top: 10rem;
+        margin-left: 10%;
+        width: 80%;
+    }
+    
+}
+
+@media screen and (min-width: 768px) {
+
+
+    .seccionelegirnos__textos {
+        gap: 25px;
+    }
+
+    .seccionelegirnos__parrafo {
+        padding: 0px 180px;
+    }
+
+    .seccionelegirnos__detalles {
+        flex-direction: row;
+    }
+
+    .seccionelegirnos__parrafo-box {
+        padding: 10px;
+    }
+}
+
+@media (max-width:768px){
+    
+    .header-txt h1{
+        width: 80%;
+        line-height: 5rem;
+        font-size: 3.5rem;
+    }
+    .header-txt p{
+        margin-top: 3rem;
+        margin-left: 10%;
+        width: 80%;
+    }
+    .header-txt .parrafo{
+        display: none;
+    }
+
+    .btn-1{
+        margin: 20px 25%;
+    }
+
+    .seccionelegirnos{
+        height: 100%;
+    }
+
+    .seccionelegirnos__parrafo{
+        font-size: 1.2rem;
+        width: 80%;
+    }
+
+    .seccionelegirnos__iconos{
+        width: 8rem;
+        height: 8rem;
+        padding-top: 1px;
+    }
+
+    .carousel-container{
+        height: 100%;
+    }
+
+    .cartas{
+        display: flex;
+        flex-direction: column;
+    } 
+}
+
+>>>>>>> ModifGral

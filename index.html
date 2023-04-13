@@ -5,7 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!--Titulo-->
+    <title>GPV | gustoPorViajar</title>
+    <!--Favicon-->
+    <link rel="icon" type="image/x-icon" href="./images/sun.png">
+    <!-- CSS -->
     <link rel="stylesheet" href="./css/styles.css">
     <!--Google fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,7 +25,7 @@
 <body>
 
     <!-- Header -->
-    <header class="header">
+    <header class="header" id="inicio">
         <nav class="navbar navbar-expand-md">
             <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler"
@@ -29,60 +33,54 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbar-toggler">
-                    <a class="navbar-brand" href="#">LOGO</a>
+                    <a class="navbar-brand" href="#"><img src="./images/fondo.png" alt=""></a>
                     <ul class="navbar-nav d-flex justify-content-center align-items-center">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Inicio</a>
+                            <a class="nav-link" aria-current="page" href="#inicio">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">¿Quienes somos?</a>
+                            <a class="nav-link" href="#quienes-somos">¿Quienes somos?</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Destinos</a>
+                            <a class="nav-link" href="#destinos">Destinos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contacto</a>
+                            <a class="nav-link" href="#contacto">Contacto</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
-        <div class="header-content container">
+        <div class="header-content container-fluid">
             <div class="header-txt">
-                <h1><i>Descubre la cultura, explora la aventura y disfruta la diversidad.<br></i></h1>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores, error? Deserunt itaque fuga
-                    expedita ipsum illum neque! Iusto placeat aliquam, nisi corrupti hic autem nemo earum deserunt!
-                    Praesentium, possimus non? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam ab
-                    sapiente doloribus, nobis debitis, molestiae facere in voluptatem accusamus libero quos provident et
-                    assumenda. Impedit nihil amet quos obcaecati consequuntur.</p>
-                <a href="#" class="btn-1">Contáctanos</a>
+                <h1><i>Descubre la cultura, Explora la aventura y Disfruta la diversidad.<br></i></h1>
+                <p class="parrafo">¡Bienvenidos!. Si estás buscando una experiencia única e inolvidable, estás en el lugar adecuado. Ofrecemos una amplia variedad de destinos por toda la Argentina, te brindamos opciones para todo tipo de viajeros, desde aquellos que buscan aventuras extremas hasta aquellos que prefieren la relajación y el descanso.</p>
+                <p>¡Encuentra el viaje perfecto para ti comienza a planear tu próxima aventura!.</p>
             </div>
         </div>
+        <a href="#contacto" class="btn-1">Contáctanos</a>
     </header>
 
-    <!-- Go-top -->
+    <!-- Boton Go-top -->
     <div class="go-top-container">
         <div class="go-top-button">
-            <i class="bi bi-airplane"></i>
+            <i class="bi bi-airplane-fill"></i>
         </div>
     </div>
 
     <!--¿Porque elegirnos?-->
     <section class="seccionelegirnos">
-
         <div class="seccionelegirnos__textos">
             <h2 class="seccionelegirnos__titulo">¿ Porqué elegirnos ?</h2>
             <p class="seccionelegirnos__parrafo">Con más de 20 años de experiencia en la industria del turismo
                 nuestra agencia de viajes ha ayudado a miles de viajeros
                 a explorar los rincones más emocionantes de la República Argentina.</p>
-
         </div>
-
         <div class="seccionelegirnos__detalles">
             <div class="seccionelegirnos__box">
                 <div class="seccionelegirnos__iconos">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-diamond" width="44"
-                        height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none"
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-diamond" width="80"
+                        height="80" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none"
                         stroke-linecap="round" stroke-linejoin="round">
                         <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                         <path d="M6 5h12l3 5l-8.5 9.5a0.7 .7 0 0 1 -1 0l-8.5 -9.5l3 -5" />
@@ -101,8 +99,8 @@
             </div>
             <div class="seccionelegirnos__box">
                 <div class="seccionelegirnos__iconos ">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-receipt-2" width="44"
-                        height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none"
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-receipt-2" width="80"
+                        height="80" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none"
                         stroke-linecap="round" stroke-linejoin="round">
                         <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                         <path d="M5 21v-16a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v16l-3 -2l-2 2l-2 -2l-2 2l-2 -2l-3 2" />
@@ -118,8 +116,8 @@
             </div>
             <div class="seccionelegirnos__box">
                 <div class="seccionelegirnos__iconos">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-shield-check" width="44"
-                        height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none"
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-shield-check" width="80"
+                        height="80" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none"
                         stroke-linecap="round" stroke-linejoin="round">
                         <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                         <path d="M9 12l2 2l4 -4" />
@@ -140,43 +138,44 @@
     </section>
 
     <!-- Destinos -->
-    <section class="carousel-container">
+    <section class="carousel-container" id="destinos">
         <h1 class="destinos-txt text-center pt-5">Nuestros Destinos</h1>
+        <p class="destinos-parrafo">Te ofrecemos algunos de los destinos más increíbles del mundo que puedes visitar. Desde playas hermosas y ciudades vibrantes hasta paisajes naturales impresionantes y lugares históricos</p>
         <div id="carouselExample" class="carousel slide">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <!--card 1-->
                     <div class="cartas destinos d-flex align-items-center justify-content-center mt-5 mb-5">
-                        <div class="card ms-5" style="width: 18rem; height: 25rem;">
+                        <div class="card ms-5" style="width: 20rem; height: 28rem;">
                             <img src="./images/cataratas.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
+                            <div class="card-body align-items-center justify-content-center">
                                 <h5 class="card-title">Misiónes</h5>
                                 <p class="card-text">Cataratas del Iguazú.</p>
                             </div>
                             <ul class="list-group list-group-flush">
-                                <li class="list-group-item">Precio: Desde ...</li>
+                                <li class="list-group-item"><b>Precio:</b>Desde $40mil</li>
                             </ul>
                         </div>
                         <!--card 2-->
-                        <div class="card ms-5" style="width: 20rem; height: 25rem;">
+                        <div class="card ms-5" style="width: 20rem; height: 28rem;">
                             <img src="./images/jujuy.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Jujúy</h5>
                                 <p class="card-text">Cerro de los 7 colores.</p>
                             </div>
                             <ul class="list-group list-group-flush">
-                                <li class="list-group-item">Precio: Desde ...</li>
+                                <li class="list-group-item"><b>Precio:</b> Desde $35mil</li>
                             </ul>
                         </div>
                         <!--card 3-->
-                        <div class="card ms-5" style="width: 18rem; height: 25rem;">
+                        <div class="card ms-5" style="width: 20rem; height: 28rem;">
                             <img src="./images/sanMartinDeLosAndes.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Neuquén</h5>
                                 <p class="card-text">San Martin de los Andes</p>
                             </div>
                             <ul class="list-group list-group-flush">
-                                <li class="list-group-item">Precio: Desde ...</li>
+                                <li class="list-group-item"><b>Precio:</b> Desde $45mil</li>
                             </ul>
                         </div>
                     </div>
@@ -184,49 +183,51 @@
                 <div class="carousel-item">
                     <!--card 4-->
                     <div class="cartas destinos d-flex align-items-center justify-content-center mt-5 mb-5">
-                        <div class="card ms-5" style="width: 18rem; height: 25rem;">
+                        <div class="card ms-5" style="width: 20rem; height: 28rem;">
                             <img src="./images/peritoMoreno.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Santa Cruz</h5>
                                 <p class="card-text">Glaciar Perito Moreno</p>
                             </div>
                             <ul class="list-group list-group-flush">
-                                <li class="list-group-item">Precio: Desde ...</li>
+                                <li class="list-group-item"><b>Precio:</b> Desde $70mil</li>
                             </ul>
                         </div>
                         <!--card 5-->
-                        <div class="card ms-5" style="width: 18rem; height: 25rem;">
+                        <div class="card ms-5" style="width: 20rem; height: 28rem;">
                             <img src="./images/bariloche.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Río Negro</h5>
                                 <p class="card-text">San Carlos de Bariloche</p>
                             </div>
                             <ul class="list-group list-group-flush">
-                                <li class="list-group-item">Precio: Desde ...</li>
+                                <li class="list-group-item"><b>Precio:</b> Desde $58mil</li>
                             </ul>
                         </div>
                         <!--card 6-->
-                        <div class="card ms-5" style="width: 18rem; height: 25rem;">
+                        <div class="card ms-5" style="width: 20rem; height: 28rem;">
                             <img src="./images/talampaya.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">La Rioja</h5>
                                 <p class="card-text">Parque Nacional Talampaya</p>
                             </div>
                             <ul class="list-group list-group-flush">
-                                <li class="list-group-item">Precio: Desde ...</li>
+                                <li class="list-group-item"><b>Precio:</b> Desde 30mil</li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
+            <div class="boton-carrusel">
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
         </div>
     </section>
     <!-- Sobre nosotros -->
@@ -234,7 +235,13 @@
 
     </section>
     <!-- Formulario -->
+<<<<<<< HEAD
 
+=======
+    <div class="txt-form" id="contacto">
+        <h1>Contactanos:</h1>
+    </div>
+>>>>>>> ModifGral
     <section class="form__contacto">
         <form action="" class="row p-3 needs-validation" novalidate>
             <h2>
