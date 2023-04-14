@@ -667,3 +667,82 @@
         height: 4rem;
     }
 }
+
+
+
+.quienessomos {
+
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+    background: linear-gradient(rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.4)),
+        url(../images/colorido.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: auto;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.quienessomos__h1 {
+    font-size: 48px;
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+.quienessomos__logo {
+    width: 64px;
+    height: 64px;
+
+    background-image: url(../images/sun.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin-bottom: 50px;
+}
+
+.quienessomos__p {
+    text-align: center;
+    line-height: 2;
+    color: white;
+    font-size: 28px;
+    padding: 0px 100px;
+
+}
+
+@media (max-width: 768px) {
+    .quienessomos {
+        width: auto;
+        height: 100vh;
+
+        gap: 50px;
+
+    }
+
+    .quienessomos__h1 {
+        font-size: 24px;
+        padding: 0;
+        margin: 0;
+    }
+
+
+    .quienessomos__p {
+        font-size: 16px;
+        padding: 0px 10px;
+        margin: 0;
+    }
+
+    .quienessomos__logo {
+        display: none;
+    }
+}
