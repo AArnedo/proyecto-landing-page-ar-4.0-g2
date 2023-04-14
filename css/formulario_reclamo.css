@@ -1,0 +1,370 @@
+/*font-family: 'Playfair Display', serif;*/
+
+*{
+    font-family: 'Playfair Display', serif;
+}
+.navbar {
+    background: linear-gradient(to bottom, #66b7e2, rgba(0, 0, 255, 0));
+}
+
+.navbar-collapse {
+    color: #ffffff;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    padding: 0 .2rem;
+}
+
+.navbar-collapse ul li a {
+    color: #ffffff;
+
+}
+
+.collapse .navbar-brand {
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+
+
+.navbar-collapse .navbar-brand:hover {
+    color: #333333;
+}
+
+.nav-item {
+    position: relative;
+    float: left;
+}
+
+.navbar .nav-link:hover {
+    color: #333333;
+}
+
+.navbar .nav-link {
+    margin-left: 1.5rem;
+}
+
+/*Formulario reclamo*/
+.form-reclamo{
+    width: 100%;
+    height: 100%;
+    background: url(../images/menu-bg.jpg) center;
+    background-size: cover;
+}
+
+.reclamo-txt{
+    font-style: italic;
+    color: #333333;
+    font-size: 60px;
+}
+.h6-txt {
+    margin-top: -45px;
+    padding: 30px;
+    font-style: 'Playfair Display', serif;
+    color: #333333;
+    font-size: 16px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+p {
+	color: grey;
+}
+#heading {
+	text-transform: uppercase;
+	color: #216ce7;
+	font-weight: normal;
+    margin: 0 0 12px;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+#msform {
+    text-align: center;
+    position: relative;
+    margin-top: 20px;
+}
+
+#msform fieldset {
+    background: white;
+    border: 0 none;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.form-card {
+	text-align: left;
+}
+
+#msform fieldset:not(:first-of-type) {
+    display: none;
+}
+/*input*/
+#msform input, #msform textarea, #miSelect1 {
+    width: 98%;
+    border-radius: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#msform input, #msform textarea, #miSelect1 {
+    border: 2px solid #ebebeb;
+}
+
+#msform textarea{
+    height: 100px;
+}
+/* Buttons Next */
+#msform .action-button {
+    width: 100px;
+    background: #216ce7;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 5px 10px 5px;
+    float: right;
+}
+
+#msform .action-button:hover, #msform .action-button:focus {
+    background-color: #5c00fc;
+}
+
+/* Buttons Previous */
+#msform .action-button-previous {
+    width: 100px;
+    background: #27578f;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 5px 10px 0px;
+    float: right;
+}
+
+#msform .action-button-previous:hover, #msform .action-button-previous:focus {
+    background-color: #0873d8;
+}
+.btn-inicio{
+    width: 100px;
+    font-weight: bold;
+    color: #216ce7;
+    border: 0 none;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 5px 10px 5px;
+    float: right;
+}
+/*The background card*/
+.card {
+    z-index: 0;
+    border: none;
+    position: relative;
+}
+
+/*FieldSet headings*/
+.fs-title {
+    font-size: 25px;
+    color: #216ce7;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    font-weight: normal;
+    text-align: left;
+}
+
+.purple-text {
+	color: #216ce7;
+    font-weight: normal;
+}
+
+/*steps*/
+.steps {
+	font-size: 25px;
+    color: gray;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    font-weight: normal;
+    text-align: right;
+}
+
+/*Field names*/
+.fieldlabels {
+	color: gray;
+    background-color: none;
+	text-align: left;
+    margin: 5px;
+    margin-left: 10px;
+}
+
+
+/*Icon progressbar*/
+#progressbar {
+    padding: 2px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    color: lightgrey;
+}
+
+#progressbar .active {
+    color: #216ce7;
+}
+
+#progressbar li {
+    list-style-type: none;
+    font-size: 15px;
+    width: 25%;
+    float: left;
+    position: relative;
+    font-weight: 400;
+}
+
+/*Iconos del ProgressBar*/
+#progressbar #account:before {
+    font-family: FontAwesome;
+    content: "\f13e";
+}
+
+#progressbar #personal:before {
+    font-family: FontAwesome;
+    content: "\f007";
+}
+
+#progressbar #payment:before {
+    font-family: FontAwesome;
+    content: "\f0e0";
+}
+
+#progressbar #confirm:before {
+    font-family: FontAwesome;
+    content: "\f00c";
+}
+
+/*Icon ProgressBar before any progress*/
+#progressbar li:before {
+    width: 50px;
+    height: 50px;
+    line-height: 45px;
+    display: block;
+    font-size: 20px;
+    color: #ffffff;
+    background: lightgray;
+    border-radius: 50%;
+    margin: 0 auto 10px auto;
+    padding: 2px;
+}
+
+/*ProgressBar connectors*/
+#progressbar li:after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: lightgray;
+    position: absolute;
+    left: 0;
+    top: 25px;
+    z-index: -1;
+}
+
+
+#progressbar li.active:before, #progressbar li.active:after {
+    background: #216ce7;
+}
+
+
+/*Fit image in bootstrap div*/
+.fit-image{
+    width: 100%;
+    object-fit: cover;
+}
+
+/*footer*/
+
+.footer__content {
+
+    background-color: #EEE9DA;
+    width: auto;
+    height: 281px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.footer__link {
+    display: flex;
+    justify-content: center;
+}
+
+.footer__logo {
+    width: 75%;
+    height: auto;
+}
+
+
+
+.footer__text {
+    text-align: center;
+    font-size: 18px;
+    color: #252525;
+
+}
+
+.footer__socials {
+    display: flex;
+    gap: 30px;
+}
+
+
+.footer__icons {
+    color: #252525;
+    text-decoration: none;
+
+}
+
+.footer__icons:hover {
+    color: #93BFCF;
+}
+
+/*footer credits*/
+
+.footer__credits {
+    background-color: #252525;
+
+    width: auto;
+    height: 124px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.footer__text-credits {
+
+    color: white;
+    font-family: serif;
+    text-align: center;
+
+}
+
+.footer__link-credits {
+    color: #93BFCF;
+}
+
+.footer__link-credits:hover {
+    color: #EEE9DA;
+}
