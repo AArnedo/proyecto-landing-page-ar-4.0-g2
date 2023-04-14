@@ -199,7 +199,7 @@
     font-style: italic;
     text-decoration: underline .2rem;
     color: #EEE9DA;
-    font-size: 60px;
+    font-size: 3rem;
     margin-bottom: 2rem;
 }
 
@@ -243,6 +243,116 @@
 /* ¿Quienes Somos? */
 
 
+.quienessomos {
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+}
+
+
+.quienessomos__grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+
+.quienessomos__col1 {
+    background-image: url(../images/colorido.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 600px;
+
+
+}
+
+.quienessomos__col2 {
+
+    background-color: #EEE9DA;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.quienessomos__historia {
+
+    background-color: #BDCDD6;
+    font-size: 24px;
+    height: 600px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.quienessomos__h1 {
+    font-size: 48px;
+    color: #252525;
+
+
+
+}
+
+
+.quienessomos__logo {
+    width: 64px;
+    height: 64px;
+
+    background-image: url(../images/sun.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.quienessomos__p {
+
+    text-align: center;
+    padding: 40px;
+
+    line-height: 2;
+
+    color: white;
+
+}
+
+@media (max-width: 768px) {
+    .quienessomos {
+        margin: 0px;
+    }
+
+    .quienessomos__grid {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .quienessomos__col1 {
+        display: none;
+    }
+
+    .quienessomos__col2 {
+        height: 200px;
+    }
+
+    .quienessomos__historia {
+
+        background-color: #BDCDD6;
+        font-size: 16px;
+
+
+    }
+
+    .quienessomos__logo {
+        display: none;
+    }
+}
 
 
 /* formulario de contacto */
@@ -555,118 +665,5 @@
     100% {
         width: 4rem;
         height: 4rem;
-    }
-}
-
-
-
-.quienessomos {
-    display: flex;
-    flex-direction: column;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
-
-}
-
-
-.quienessomos__grid {
-    display: grid;
-    grid-template-columns: 50% 50%;
-
-}
-
-.quienessomos__col1 {
-    background-image: url(../images/colorido.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: auto;
-    height: 600px;
-
-
-}
-
-.quienessomos__col2 {
-
-    background-color: #EEE9DA;
-
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-
-}
-
-.quienessomos__historia {
-
-    background-color: #BDCDD6;
-    font-size: 24px;
-    height: 600px;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-}
-
-.quienessomos__h1 {
-    font-size: 48px;
-    color: #252525;
-
-
-
-}
-
-
-.quienessomos__logo {
-    width: 64px;
-    height: 64px;
-
-    background-image: url(../images/sun.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.quienessomos__p {
-
-    text-align: center;
-    padding: 40px;
-
-    line-height: 2;
-
-    color: white;
-
-}
-
-@media (max-width: 768px) {
-    .quienessomos {
-        margin: 0px;
-    }
-
-    .quienessomos__grid {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .quienessomos__col1 {
-        display: none;
-    }
-
-    .quienessomos__col2 {
-        height: 200px;
-    }
-
-    .quienessomos__historia {
-
-        background-color: #BDCDD6;
-        font-size: 16px;
-
-
-    }
-
-    .quienessomos__logo {
-        display: none;
     }
 }
