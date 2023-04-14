@@ -93,7 +93,7 @@
     padding-left: .5rem;
 }
 
-.header-txt p{
+.header-txt p {
     font-size: 1.6rem;
     font-style: italic;
     color: #ffffff;
@@ -135,11 +135,11 @@
 }
 
 .seccionelegirnos__titulo {
-    font-family:'Playfair Display', serif;
+    font-family: 'Playfair Display', serif;
     font-style: italic;
     font-size: 60px;
     color: #333333;
-    text-decoration:underline .2rem;
+    text-decoration: underline .2rem;
     text-align: center;
     padding-top: 2rem;
 }
@@ -362,52 +362,52 @@
 
 /*Medias Querry*/
 
-@media(max-width:991px){
+@media(max-width:991px) {
 
-    .header{
+    .header {
         height: 100%;
     }
 
-    .navbar-brand img{
+    .navbar-brand img {
         align-items: center;
     }
 
-    .navbar-collapse{
+    .navbar-collapse {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
     }
-   
-    .header-txt h1{
+
+    .header-txt h1 {
         width: 80%;
         line-height: 6rem;
         font-size: 4rem;
     }
 
-    .header-txt .parrafo{
+    .header-txt .parrafo {
         width: 80%;
     }
 
-    .btn-1{
+    .btn-1 {
         position: relative;
         align-items: center;
         margin: 5% 5%;
-        
+
     }
 
-    .header-txt p{
+    .header-txt p {
         margin-left: 2rem;
         width: 80%;
     }
 
-    .go-top-container{
+    .go-top-container {
         display: none;
     }
-    
+
 }
 
 @media screen and (min-width: 768px) {
-    .seccionelegirnos{
+    .seccionelegirnos {
         height: 100%;
     }
 
@@ -426,6 +426,7 @@
     .seccionelegirnos__parrafo-box {
         padding: 10px;
     }
+
     .form__contacto {
         margin: 100px;
         padding: 50px;
@@ -434,57 +435,59 @@
     }
 }
 
-@media (max-width:768px){
+@media (max-width:768px) {
 
-    .header{
+    .header {
         height: 100%;
         width: 100%;
     }
-    
-    .header-txt h1{
+
+    .header-txt h1 {
         line-height: 5rem;
         font-size: 3.5rem;
     }
-    .header-txt p{
+
+    .header-txt p {
         margin-top: 3rem;
         margin-left: 10%;
         width: 80%;
     }
-    .header-txt .parrafo{
+
+    .header-txt .parrafo {
         display: none;
     }
 
-    .btn-1{
+    .btn-1 {
         margin: .5rem, auto;
     }
 
-    .seccionelegirnos{
+    .seccionelegirnos {
         height: 100%;
     }
 
-    .seccionelegirnos__parrafo{
+    .seccionelegirnos__parrafo {
         font-size: 1.2rem;
         width: 80%;
     }
 
-    .seccionelegirnos__iconos{
+    .seccionelegirnos__iconos {
         width: 8rem;
         height: 8rem;
         padding-top: 1px;
     }
 
-    .seccionelegirnos__titulo{
+    .seccionelegirnos__titulo {
         font-size: 2.5rem;
     }
 
-    .carousel-container{
+    .carousel-container {
         height: 100%;
     }
 
-    .cartas{
+    .cartas {
         display: flex;
         flex-direction: column;
-    } 
+    }
 }
 
 
@@ -556,3 +559,114 @@
 }
 
 
+
+.quienessomos {
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+}
+
+
+.quienessomos__grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+
+.quienessomos__col1 {
+    background-image: url(/images/colorido.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 600px;
+
+
+}
+
+.quienessomos__col2 {
+
+    background-color: #EEE9DA;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.quienessomos__historia {
+
+    background-color: #BDCDD6;
+    font-size: 24px;
+    height: 600px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.quienessomos__h1 {
+    font-size: 48px;
+    color: #252525;
+
+
+
+}
+
+
+.quienessomos__logo {
+    width: 64px;
+    height: 64px;
+
+    background-image: url(../images/sun.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.quienessomos__p {
+
+    text-align: center;
+    padding: 40px;
+
+    line-height: 2;
+
+    color: white;
+
+}
+
+@media (max-width: 768px) {
+    .quienessomos {
+        margin: 0px;
+    }
+
+    .quienessomos__grid {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .quienessomos__col1 {
+        display: none;
+    }
+
+    .quienessomos__col2 {
+        height: 200px;
+    }
+
+    .quienessomos__historia {
+
+        background-color: #BDCDD6;
+        font-size: 16px;
+
+
+    }
+
+    .quienessomos__logo {
+        display: none;
+    }
+}
