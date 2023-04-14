@@ -561,61 +561,31 @@
 
 
 .quienessomos {
-    display: flex;
-    flex-direction: column;
+
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 
-}
-
-
-.quienessomos__grid {
-    display: grid;
-    grid-template-columns: 50% 50%;
-
-}
-
-.quienessomos__col1 {
-    background-image: url(../images/colorido.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.4)),
+        url(../images/colorido.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+
     width: auto;
-    height: 600px;
-
-
-}
-
-.quienessomos__col2 {
-
-    background-color: #EEE9DA;
-
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-
-}
-
-.quienessomos__historia {
-
-    background-color: #BDCDD6;
-    font-size: 24px;
-    height: 600px;
+    height: 100vh;
 
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
 }
+
 
 .quienessomos__h1 {
     font-size: 48px;
-    color: #252525;
-
-
-
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
 }
 
 
@@ -627,43 +597,39 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+
+    margin-bottom: 50px;
 }
 
 .quienessomos__p {
-
     text-align: center;
-    padding: 40px;
-
     line-height: 2;
-
     color: white;
+    font-size: 28px;
+    padding: 0px 100px;
 
 }
 
 @media (max-width: 768px) {
     .quienessomos {
-        margin: 0px;
+        width: auto;
+        height: 100vh;
+
+        gap: 50px;
+
     }
 
-    .quienessomos__grid {
-        display: flex;
-        flex-direction: column;
+    .quienessomos__h1 {
+        font-size: 24px;
+        padding: 0;
+        margin: 0;
     }
 
-    .quienessomos__col1 {
-        display: none;
-    }
 
-    .quienessomos__col2 {
-        height: 200px;
-    }
-
-    .quienessomos__historia {
-
-        background-color: #BDCDD6;
+    .quienessomos__p {
         font-size: 16px;
-
-
+        padding: 0px 10px;
+        margin: 0;
     }
 
     .quienessomos__logo {
